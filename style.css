@@ -1,0 +1,108 @@
+@import url('https://fonts.cdnfonts.com/css/good-daddy');
+
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+/* NAV */
+.nav {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.nav a {
+  color: wheat;
+}
+
+.nav a:hover {
+  scale: 20.3;
+}
+
+/* NAV */
+
+/* HEADER */
+.header {
+  background-color: mediumaquamarine;
+  padding: 8%;
+}
+
+.header h1 {
+  text-align: center;
+  font-family: 'GOOD DADDY', sans-serif;
+  color: white;
+  font-size: 54px;
+  letter-spacing: 2px;
+}
+
+.header h3 {
+  text-align: center;
+  font-family: 'GOOD DADDY', sans-serif;
+  font-size: 28px;
+  color: lightgoldenrodyellow;
+}
+
+.header p {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.uy {
+  width: 4pc;
+  height: 4pc;
+  color: white;
+}
+
+.uy:hover {
+  scale: 1.1;
+  animation-duration: 4s;
+}
+
+/* HEADER */
+
+
+/* BIODATA */
+.kenalan {
+  background-color: lightblue;
+  text-align: center;
+  padding: 5%;
+}
+
+.kenalan h2 {
+  font-family: 'GOOD DADDY', sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+.kenalan h1 {
+  font-family: 'GOOD DADDY', sans-serif;
+  font-size: 64px;
+}
+
+/* BIODATA */
+
+
+/* HOBI */
+.hobi {
+  background-color: mediumaquamarine;
+  text-align: center;
+  padding: 5%;
+  min-height: 100vh;
+}
+
+.hobi h1 {
+  font-family: 'GOOD DADDY', sans-serif;
+}
+
+/* HOBI */
