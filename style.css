@@ -2,30 +2,34 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 html {
-  width: 360px;
-  height: 375px;
   scroll-behavior: smooth;
 }
 
 body {
-  min-width: 360px;
-  min-height: 375px;
+  margin: 0;
+  padding: 0;
 }
 
 /* NAV */
-.nav {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  margin: 100px;
+.navdot {
+  position: fixed;
+  top: 10%;
+  left: 5%;
 }
 
-.nav a {
-  color: wheat;
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.oy {
+  color: white;
+  width: 2rem;
+  height: 2rem;
 }
 
 .nav a:hover {
-  scale: 1.3;
+  scale: 1.5;
 }
 
 /* NAV */
@@ -33,46 +37,35 @@ body {
 /* HEADER */
 .header {
   background-color: mediumaquamarine;
-  padding: 10%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .greetings {
-  display: block;
-  padding: auto;
-}
-
-.header h1 {
+  padding: 2% 15%;
   text-align: center;
   font-family: 'GOOD DADDY', sans-serif;
+}
+
+.greetings h1 {
   color: white;
-  font-size: 35px;
+  font-size: 65px;
   letter-spacing: 2px;
 }
 
-.header h3 {
-  text-align: center;
-  font-family: 'GOOD DADDY', sans-serif;
-  font-size: 18px;
+.greetings h3 {
+  font-size: 35px;
   color: lightgoldenrodyellow;
-}
-
-.header p {
-  text-align: center;
-  font-family: sans-serif;
-  color: white;
 }
 
 .down {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   flex-direction: column;
 }
 
 .uy {
-  width: 4pc;
-  height: 4pc;
+  width: 5pc;
+  height: 5pc;
   color: white;
 }
 
@@ -91,42 +84,59 @@ body {
   0% {
     top: 0;
   }
+
   100% {
-    top: 30px;
+    top: 20px;
   }
 }
 
-.kacamata img{
-  width: 100px;
-  bottom: 0;
-  align-items: center;
-} 
 /* HEADER */
 
 
 /* BIODATA */
 .kenalan {
   background-color: lightblue;
-  text-align: center;
-  padding: 15%;
+  padding: 5% 0;
+  display: flex;
+  flex-direction: row;
 }
 
-.kenalan h2 {
-  font-family: 'GOOD DADDY', sans-serif;
-  font-size: 18px;
-  color: white;
+.foto img {
+  width: 100%;
+  left: 0;
 }
 
-.kenalan h1 {
+.a {
+  display: flex;
+  flex-direction: column;
+}
+
+.hai {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
   font-family: 'GOOD DADDY', sans-serif;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  box-sizing: border-box;
+}
+
+.hai h2 {
   font-size: 35px;
-  color: lightgoldenrodyellow;
+  color: dimgray;
 }
 
-.kenalan p {
+.hai h1 {
+  font-size: 65px;
+  color: darkseagreen;
+}  
+
+.info p {
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-  color: white;
+  font-size: 15px;
+  color: dimgray;
+  text-align: center;
 }
 
 /* BIODATA */
@@ -142,8 +152,17 @@ body {
 
 .hobi h1 {
   font-family: 'GOOD DADDY', sans-serif;
-  font-size: 35px;
+  font-size: 15px;
 }
 
 /* HOBI */
 
+/* FOOTER */
+
+.j img {
+  width: 20%;
+  top: 20%;
+  right: 0%;
+}
+
+/* FOOTER */
